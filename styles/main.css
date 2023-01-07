@@ -2,19 +2,25 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Rowdies", cursive;
+  font-family: 'Work Sans', sans-serif;
 }
-.title {
+/* header part */
+.header {
+  height: 800px;
+  background-image: url("../images/banner/banner2.png");
+  background-size: cover;
+}
+.header .header-container {
+  display: flex;
+  justify-content: center;
+}
+.header-title {
   text-align: center;
-  /* margin-top: 281px ;
- margin-left: 700px;
- margin-right: 190px;
- margin-bottom: 24px; */
   margin: 281px 190px 24px 700px;
   font-size: 65px;
   font-weight: 700;
 }
-.description {
+.header-description {
   text-align: center;
   margin: 0 190px 30px 700px;
   font-weight: 400px;
@@ -22,7 +28,6 @@
   color: #444343;
 }
 .btn-primary {
-  /* margin: 0 100px auto 950px; */
   margin-left: 1000px;
   font-size: 25px;
   font-weight: 600;
@@ -35,32 +40,22 @@
 .btn-primary i {
   padding-right: 2px;
 }
-/* header part */
-.header {
-  height: 800px;
-  background-image: url("../images/banner/banner2.png");
-  background-size: cover;
-  /* background-repeat: no-repeat; */
-}
-.header div {
-  display: flex;
-  justify-content: center;
-}
+
 /* main part */
 .section {
-  margin-top: 100px;
-  margin-bottom: 140x;
+  margin-top: 140px;
 }
 .container {
   display: flex;
+  margin-top: 100px;
   margin-left: 20px;
   margin-right: 20px;
   align-items: center;
 }
-.container-image{
+.container-image {
   height: 722px;
 }
-.container-content{
+.container-content {
   margin-left: 142px;
   margin-right: 260px;
 }
@@ -68,12 +63,72 @@
   font-size: 40px;
   font-weight: 700;
 }
-.container-description, .container-top {
-  font-size:16px;
-  font-weight:400 ;
+.container-description,
+.container-point {
+  font-size: 16px;
+  font-weight: 400;
   color: #444343;
-  margin-top: 22px;
-  margin-bottom: 22px;
+}
+.container-description {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.container-point .fa-check {
+  margin-top: 5px;
+  color: green;
+}
+/* my plans section */
+.plans-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+}
+.plans-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.plans-container-info {
+  margin: 0 50px;
+}
+.plans-container-info .center {
+  display: block;
+  margin: 0 auto;
+}
+.plans-container-title {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 16px 0;
+}
+.plans-container-description {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: #444343;
+}
+/* section combination part */
+.combination {
+  height: 300px;
+  border: 0;
+  border-radius: 8px;
+  margin: 0 150px;
+  background-image:linear-gradient(to left, transparent, rgb(209, 94, 81)),
+    url("../images/watch.png");
+}
+.comb-title {
+  font-size: 48px;
+  font-family: 700;
+  color: #ffffff;
+  margin:0 0 24px 64px;
+}
+.combination .sub-btn {
+  font-size: 20px;
+  font-family: 600;
+  color: #f15b22;
+  margin: 0 617px 59px 64px;
+  padding: 20px 26px;
+  border: 0;
+  border-radius: 5px;
 }
 
 /* footer part */
