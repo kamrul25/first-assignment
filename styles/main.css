@@ -38,7 +38,7 @@
   color: #444343;
 }
 .btn-primary {
-  margin-left: 1000px;
+  margin-left: 950px;
   font-size: 25px;
   font-weight: 600;
   color: #ffffff;
@@ -47,7 +47,7 @@
   border: 0;
   border-radius: 5px;
 }
-.btn-primary i {
+.btn-primary .fa-phone-volume {
   padding-right: 2px;
 }
 
@@ -88,7 +88,7 @@
   color: green;
 }
 /* my plans section */
-.plans-title {
+.plans-title{
   text-align: center;
   font-weight: 700;
   font-size: 40px;
@@ -110,11 +110,35 @@
   font-weight: 700;
   margin: 16px 0;
 }
-.plans-container-description {
+.plans-container-description  {
   text-align: center;
   font-size: 16px;
   font-weight: 400;
   color: #444343;
+}
+/* dream section */
+.dream-container{
+  border: 2px solid whitesmoke;
+  border-radius: 8px;
+  height: 300px;
+  margin: 0 150px ;
+  text-align: center;
+  background-image:linear-gradient(to top,transparent, white), url('../images/web-dev-concept.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-blend-mode: multiply; */
+}
+.dream-title{
+   font-weight: 700;
+  font-size: 50px;
+  color: rgb(41, 41, 46);
+  margin-top: 55px ;
+  margin-bottom: 15px;
+}
+.dream-description{
+  font-size: 18px;
+  font-weight: 500;
+  color:#444343 ;
 }
 /* section combination part */
 .combination {
@@ -124,7 +148,6 @@
   margin: 0 150px;
   background-image: linear-gradient(to left, transparent, rgba(241, 91, 34)),
     url("../images/watch.png");
-    background-blend-mode: multiply;
 }
 .comb-title {
   font-size: 48px;
