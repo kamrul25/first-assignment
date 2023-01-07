@@ -48,17 +48,31 @@
 }
 /* main part */
 .section {
-  /* height: 723px; */
   margin-top: 100px;
-  margin-bottom: 40x;
-  border: 2px solid red;
+  margin-bottom: 140x;
 }
 .container {
   display: flex;
-  border: 2px solid rgb(15, 204, 72);
   margin-left: 20px;
   margin-right: 20px;
+  align-items: center;
 }
-.container .title {
+.container-image{
+  height: 722px;
+}
+.container-content{
+  margin-left: 142px;
+  margin-right: 260px;
+}
+.container-title {
+  font-size: 40px;
+  font-weight: 700;
+}
+.container-description, .container-top {
+  font-size:16px;
+  font-weight:400 ;
+  color: #444343;
+  margin-top: 22px;
+  margin-bottom: 22px;
 }
 /* footer part */
