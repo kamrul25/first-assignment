@@ -23,12 +23,15 @@
 .header .header-container {
   display: flex;
   justify-content: center;
+
 }
 .header-title {
-  text-align: center;
-  margin: 281px 190px 24px 700px;
   font-size: 65px;
   font-weight: 700;
+  margin: 281px 190px 24px 700px;
+}
+.header-title span{
+   padding-left: 250px ;
 }
 .header-description {
   text-align: center;
@@ -126,7 +129,6 @@
   background-image:linear-gradient(to top,transparent, white), url('../images/web-dev-concept.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-blend-mode: multiply; */
 }
 .dream-title{
    font-weight: 700;
@@ -148,6 +150,8 @@
   margin: 0 150px;
   background-image: linear-gradient(to left, transparent, rgba(241, 91, 34)),
     url("../images/watch.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .comb-title {
   font-size: 48px;
