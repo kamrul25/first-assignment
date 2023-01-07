@@ -2,7 +2,17 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
+/* section combination and footer subscribe button */
+.sub-btn{
+  font-size: 20px;
+  font-family: 600;
+  color: #f15b22;
+  background: #ffffff;
+  padding: 20px 26px;
+  border: 0;
+  border-radius: 5px;
 }
 /* header part */
 .header {
@@ -112,23 +122,75 @@
   border: 0;
   border-radius: 8px;
   margin: 0 150px;
-  background-image:linear-gradient(to left, transparent, rgb(209, 94, 81)),
+  background-image: linear-gradient(to left, transparent, rgba(241, 91, 34)),
     url("../images/watch.png");
+    background-blend-mode: multiply;
 }
 .comb-title {
   font-size: 48px;
   font-family: 700;
   color: #ffffff;
-  margin:0 0 24px 64px;
+  padding-top:50px;
+  padding-left: 60px;
+  padding-right:400px;
 }
 .combination .sub-btn {
-  font-size: 20px;
-  font-family: 600;
-  color: #f15b22;
-  margin: 0 617px 59px 64px;
-  padding: 20px 26px;
-  border: 0;
-  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: 60px;
 }
 
 /* footer part */
+.footer {
+  margin-top: 130px;
+  background: #151414;
+}
+.footer-container {
+  height: 577px;
+  border:0;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+/* footer information */
+.footer-container-info {
+  margin: 110px 350px 150px 210px;
+}
+.footer-info-title {
+  color: #ffffff;
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+.footer-description {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+.footer-icons-container {
+  display: flex;
+}
+.footer-icon {
+  margin-right: 17px;
+  height: 46px;
+}
+/* footer subscribe */
+.footer-container-subscribe {
+  margin: 130px 229px 243px 0;
+}
+.footer-subscribe-title {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 600;
+}
+.subscribe-by-email {
+  margin-top: 30px;
+  margin-bottom: 16px;
+  color: #ffffff;
+  background: #151414;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 21px;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+}
